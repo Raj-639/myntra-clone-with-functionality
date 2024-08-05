@@ -1,0 +1,173 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+header{
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+ background-color: rgb(251, 208, 152);
+  align-items: center;
+
+  
+}
+.m-logo{
+  height: 45px;
+
+}
+.logo-container{
+  margin-left: 4%;
+}
+.action-bar{
+  margin-right: 4%;
+}
+.nav-bar{
+  display: flex;
+  min-width: 515px;
+  justify-content: space-evenly;
+}
+.nav-bar a{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: rgb(48, 46, 46);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 18px 0px;
+ /* border-bottom: 2px solid rgb(254, 254, 254);*/
+}
+
+.nav-bar a:hover{
+  border-bottom: 2px solid brown;
+
+}
+
+.nav-bar a sup{
+  color: red;
+  font-size: 8px;
+}
+.search-bar{
+
+  height: 35px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  
+
+}
+.search-icon{
+  box-sizing: content-box;
+  height: 15px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  border-radius: 4px 0px 0px 4px;
+
+
+}
+.search-input{
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 35px;
+  border: none;
+  border-radius: 0px 4px 4px 0px
+}
+
+
+.action-bar{
+
+display: flex;
+/*min-width: 120px;
+justify-content: space-between;*/
+
+margin-right: 6%;
+
+
+
+}
+
+.action-container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+min-width: 80px;
+}
+
+
+
+
+
+
+/*main section*/
+
+
+
+.banner{
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.main-heading{
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0 20px 30px;
+  cursor: pointer;
+}
+
+
+
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.img-content{
+  width: 200px;
+  
+}
+
+
+.footer-container{
+  padding-inline-start: 30px 0 20px 15px;
+  display:flex ;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+
+}
+
+
+.footer-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.footer-column a{
+  text-decoration: none;
+  color: #696e79;
+}
+
+
+.popular-container{
+  margin-left:5%;
+  letter-spacing: 3px;
+
+}
+
+
+.popular-items{
+  color: #696e79;
+  margin-top: 10px;
+
+}
